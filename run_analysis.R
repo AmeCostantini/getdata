@@ -1,5 +1,6 @@
 #loading packages
 require(dplyr)
+require(downloader)
 #0. setting the working directories and downloading the files
 
 mywd <- "/USers/Americo/Documents/Education/Data_science/Coursera/Getting_and_cleaning_data/wd_ass/dataset"
@@ -49,7 +50,6 @@ identical(nrow(train2), nrow(train_subject))
 #yes
 #joining the two object
 train2 <- bind_cols(train_subject, train2)
-
 
 #merging the two datasets. I use bind_rows as I know we don't have any intersection in the two datasets.
 adl1 <- bind_rows(train2, test2)
