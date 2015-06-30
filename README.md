@@ -23,14 +23,14 @@ The script is splitted into 7 chunks. Each one perform a critical step in the an
 
 
 
-#Step 4: Etracting only measurement on mean and standard deviation
+###Step 4: Etracting only measurement on mean and standard deviation
 
 
 
 
-#Step 5: Calculating mean for this variables grouping by activity and subject
+###Step 5: Calculating mean for this variables grouping by activity and subject
 
 
 
 
-#Step 6: write.table
+###Step 6: write.table
